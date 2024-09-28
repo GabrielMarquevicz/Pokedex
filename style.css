@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.botaum {
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0;
+  border-color: lightgreen;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 40px;
+  width: 80px;
+}
+
+input {
+  border-color: gainsboro;
+  border-radius: 5px;
+  height: 30px;
+  width: 360px;
+  font-weight: bold;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: absolute;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.box2 {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 70%;
+    border-radius: 10px;
+}
